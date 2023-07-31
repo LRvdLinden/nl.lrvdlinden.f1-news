@@ -4,7 +4,7 @@
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": ["local"],
-  "brandColor": "#FF1801",
+  "brandColor": "#e00800",
   "name": {
     "en": "Formula 1 News",
     "nl": "Formule 1 Nieuws"
