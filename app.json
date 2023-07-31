@@ -1,28 +1,28 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "nl.lrvdlinden.rtl-nieuws",
-  "version": "1.0.4",
+  "version": "0.0.1",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": ["local"],
-  "brandColor": "#35a7d6",
+  "brandColor": "#FF1801",
   "name": {
-    "en": "RTL Nieuws",
-    "nl": "RTL Nieuws"
+    "en": "Formula 1 News",
+    "nl": "Formule 1 Nieuws"
   },
   "images": {
     "large": "/assets/images/large.jpg",
     "small": "/assets/images/small.jpg"
   },
   "description": {
-    "en": "Receive notifications for new articles from RTL Nieuws.",
-    "nl": "Ontvang meldingen voor nieuwe artikelen van RTL Nieuws."
+    "en": "Receive notifications for new articles from Formula 1.",
+    "nl": "Ontvang meldingen voor nieuwe artikelen van Formule 1."
   },
   "category": "internet",
   "class": "rss",
   "tags": {
-    "en": ["internet", "news", "nos", "nu.nl", "rss"],
-    "nl": ["internet", "nieuws", "nos", "nu.nl", "rss"]
+    "en": ["internet", "news", "nos", "nu.nl", "rss", "f1", "Formula 1", "Formula One"],
+    "nl": ["internet", "nieuws", "nos", "nu.nl", "rss", "f1", "Formule 1", "Formula One"]
   },
   "language": {
     "en": "en",
@@ -34,11 +34,6 @@
     "email": "homey@vdlinden.xyz"
   },
   "contributors": {
-    "developers": [
-      {
-        "name": "Martijn Poppen"
-      }
-    ],
     "translators": [
       {
         "name": "🇬🇧 Léon"
