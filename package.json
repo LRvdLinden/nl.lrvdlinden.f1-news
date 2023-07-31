@@ -1,12 +1,12 @@
 {
-  "name": "nl.lrvdlinden.rtl-nieuws",
+  "name": "nl.lrvdlinden.f1-news",
   "version": "1.0.4",
-  "description": "Up-to-date RTL nieuws in The Netherlands.",
+  "description": "Up-to-date Formula one.",
   "author": "homey@vdlinden.xyz",
   "license": "GPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lrvdlinden/nl.lrvdlinden.rtl-nieuws"
+    "url": "https://github.com/lrvdlinden/nl.lrvdlinden.f1-news"
   },
   "main": "app.js",
   "scripts": {
