@@ -1,9 +1,9 @@
 
-<h1 align="center">RTL Nieuws for Homey</h1>
+<h1 align="center">F1 Nieuws for Homey</h1>
 
 <p align="center">
   <a href="https://homey.app/nl-nl/apps/author/5d4da77a2c836a50f6936070/page/0/">
-    <img src="https://www.rtlnieuws.nl/sites/default/files/content/images/2020/03/11/rtl%20nieuws%20logo.jpg?itok=lfi4jI9U&width=2048&height=1152&impolicy=semi_dynamic" />
+    <img src="(https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2022/04/10072341/Max-Verstappen-ahead-of-Mercedes-and-Red-Bull-planetF1.jpg)" />
   </a>
 </p>
 
@@ -12,8 +12,8 @@
   
 
 ## General
-This app gives Homey the ability to respond to messages of the Dutch News sender RTL Nieuws.
-Keep in mind that all messages send on this network are in Dutch.
+This app gives Homey the ability to respond to messages of Formula One (F1).
+Keep in mind that all messages send on this network are in Englisch.
 
 - Use in flow to trigger anything, e.g. speech so Homey tells you what is happening
 
@@ -24,7 +24,7 @@ Keep in mind that all messages send on this network are in Dutch.
 
 |Branch|Live Version|Status|Note| Test Version |
 | --- | --- | --- | --- | --- |
-|Homey Pro|**[no live version](https://homey.app/nl-nl/app/nl.lrvdlinden.rtl-nieuws/rtl-nieuws)**|:white_check_mark:|In development| **[1.0.2](https://homey.app/nl-nl/app/nl.lrvdlinden.rtl-nieuws/rtl-nieuws/test)** |
+|Homey Pro|**[no live version](https://homey.app/nl-nl/app/nl.lrvdlinden.rtl-nieuws/rtl-nieuws)**|:white_check_mark:|In development| **[0.0.1](https://homey.app/nl-nl/app/nl.lrvdlinden.rtl-nieuws/rtl-nieuws/test)** |
 
 
 ---
