@@ -51,9 +51,16 @@ class RtlNieuwsApp extends Homey.App {
                     imageUrl
                 };
                 
-                this.log(`[checkRssFeed] - trigger new article Data:`, data);
+                // Check if the new article has a different pubDate from the last triggered article
+                if (pubDate !== this.lastTriggeredPubDate) {
+                    this.log(`[checkRssFeed] - trigger new article Data:`, data);
+                    this.triggerNewArticle.trigger(data).catch((err) => this.error('[checkRssFeed] - Error in triggerNewArticle', err));
 
-                this.triggerNewArticle.trigger(data).catch((err) => this.error('[checkRssFeed] - Error in triggerNewArticle', err));
+                    // Update the lastTriggeredPubDate with the current pubDate
+                    this.lastTriggeredPubDate = pubDate;
+                } else {
+                    this.log(`[checkRssFeed] - Article already triggered, skipping...`);
+                }
             }
         } catch (err) {
             this.error(`[checkRssFeed] - Error in retrieving RSS-feed:`, err);
@@ -61,4 +68,4 @@ class RtlNieuwsApp extends Homey.App {
     }
 }
 
-module.exports = RtlNieuwsApp;
+module.exports = F1NieuwsApp;
