@@ -14,17 +14,17 @@
     "pl": "Nowy artykuł otrzymany"
   },
   "description": {
-    "en": "Triggered when a new article is received from RTL Nieuws.",
-    "nl": "Geactiveerd wanneer een nieuw artikel wordt ontvangen van RTL Nieuws.",
-    "de": "Ausgelöst, wenn ein neuer Artikel von RTL Nieuws empfangen wird.",
-    "fr": "Déclenché lorsqu'un nouvel article est reçu de RTL Nieuws.",
-    "it": "Attivato quando viene ricevuto un nuovo articolo da RTL Nieuws.",
-    "sv": "Aktiveras när en ny artikel tas emot från RTL Nieuws.",
-    "no": "Utløst når en ny artikkel mottas fra RTL Nieuws.",
-    "es": "Activado cuando se recibe un nuevo artículo de RTL Nieuws.",
-    "da": "Udløst, når en ny artikel modtages fra RTL Nieuws.",
-    "ru": "Срабатывает, когда поступает новая статья от RTL Nieuws.",
-    "pl": "Wyzwalane, gdy zostanie odebrany nowy artykuł z RTL Nieuws."
+    "en": "Triggered when a new article is received from F1.",
+    "nl": "Geactiveerd wanneer een nieuw artikel wordt ontvangen van F1.",
+    "de": "Ausgelöst, wenn ein neuer Artikel von F1 empfangen wird.",
+    "fr": "Déclenché lorsqu'un nouvel article est reçu de F1.",
+    "it": "Attivato quando viene ricevuto un nuovo articolo da F1.",
+    "sv": "Aktiveras när en ny artikel tas emot från F1.",
+    "no": "Utløst når en ny artikkel mottas fra F1.",
+    "es": "Activado cuando se recibe un nuevo artículo de F1.",
+    "da": "Udløst, når en ny artikel modtages fra F1.",
+    "ru": "Срабатывает, когда поступает новая статья от F1.",
+    "pl": "Wyzwalane, gdy zostanie odebrany nowy artykuł z F1."
   },
   "tokens": [
     {
