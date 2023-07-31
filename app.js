@@ -19,7 +19,7 @@ class RtlNieuwsApp extends Homey.App {
         this.triggerNewArticle = this.homey.flow.getTriggerCard('new_article');
         this.checkInterval = 5 * 60 * 1000; // 5 minutes
         this.parser = new Parser();
-        this.feedUrl = 'https://www.rtlnieuws.nl/rss.xml';
+        this.feedUrl = 'https://www.formula1.com/content/fom-website/en/latest/all.xml';
 
         setInterval(async () => {
             this.checkRssFeed();
